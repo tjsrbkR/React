@@ -1,0 +1,25 @@
+
+/* safe area */
+.w1100 {
+    width: 59.29166666666667%;
+    margin: 0 auto;
+}
+
+/* 리모컨 */
+.add {
+    position: fixed;
+    right: 10%;
+    top: 15%;
+}
+
+.add div {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 55px;
+}
+
+.add img {
+    width: 100%;
+}
+
+/* 리모컨 */

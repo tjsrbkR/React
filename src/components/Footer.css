@@ -1,0 +1,97 @@
+footer {
+  background-color: #2C2A29;
+  color: #fff;
+  padding: 32px 0 35px 0;
+  position: relative;
+}
+footer button:hover, footer li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .footer-wrap {
+  font-size: 12px;
+  margin-bottom: 17%;
+}
+footer .footer-wrap .footer-tap {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-wrap .footer-tap ul li {
+  font-size: 12px;
+  line-height: 2;
+}
+footer .footer-wrap .footer-tap ul li:first-child {
+  font-size: 14px;
+}
+footer .footer-banner {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  background-color: #282828;
+  padding-top: 20px;
+}
+footer .footer-banner ul {
+  margin-left: 19%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-banner ul li {
+  float: left;
+}
+footer .footer-aside {
+  font-size: 12px;
+  padding-top: 30px;
+}
+footer .footer-aside ul {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-aside ul li {
+  color: #ccc;
+  margin-right: 8px;
+}
+footer .footer-aside ul li span {
+  font-weight: bold;
+  color: #00b050;
+}
+footer .footer-aside ul li::after {
+  content: "|";
+  font-weight: bold;
+  color: #393939;
+  margin-left: 8px;
+}
+footer .footer-aside ul li:last-child::after {
+  content: "";
+  margin: 0;
+}
+footer .footer-aside div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer .footer-aside div button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 5px 0 5px;
+  line-height: 30px;
+  padding: 3px 26px 0;
+}
+footer .footer-aside .copyright {
+  line-height: 40px;
+}
+footer .footer-aside .copyright li:hover {
+  text-decoration: none !important;
+  cursor: inherit;
+}
+footer .footer-aside p {
+  text-align: center;
+  line-height: 30px;
+  color: #ccc;
+}
+
+/*# sourceMappingURL=footer.css.map */
