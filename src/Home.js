@@ -5,7 +5,6 @@ import Main from './components/Main'
 import "./reset.css";
 import "./font.css";
 import "./common.css";
-
 function Home() {
     return (
         <Fragment>

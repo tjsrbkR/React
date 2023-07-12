@@ -1,0 +1,85 @@
+/* reward */
+.new-rewards-wrap {
+    background-color: #1e3932;
+    padding: 30px 0 30px 0;
+    color: #fff;
+  }
+  .new-rewards-wrap .main-reward {
+    display: flex;
+  }
+  .new-rewards-wrap .main-reward .main-reward-img {
+    width: 20%;
+  }
+  .new-rewards-wrap .main-reward .main-reward-img img {
+    width: 100%;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join {
+    width: 100%;
+    margin-left: 25px;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register {
+    width: 100%;
+    border-bottom: 1px solid #4b615b;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-msg {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-msg h2 {
+    font-size: 26px;
+    line-height: 2;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-msg p {
+    line-height: 1.5;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-msg p span {
+    font-weight: bold;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-btn {
+    float: right;
+    display: flex;
+    margin-top: 50px;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-btn div {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-btn div:nth-child(1) {
+    background-color: #00704a;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-btn div:nth-child(2) {
+    border: 2px solid #fff;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .main-reward-register .reward-btn div:hover {
+    background-color: black;
+    transition: all 0.5s;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .reward-gift {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .reward-gift span {
+    font-weight: bold;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .reward-gift .reward-gift-btn {
+    padding: 5px 12px 0 12px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .new-rewards-wrap .main-reward .main-reward-join .reward-gift .reward-gift-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s;
+  }
+  
+  /* end reward */
+  
+  /*# sourceMappingURL=reward.css.map */
+  
