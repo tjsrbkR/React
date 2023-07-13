@@ -1,0 +1,57 @@
+/* costarica */
+.costarica {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 30px;
+  }
+  .costarica .costarica-contents {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+  }
+  .costarica .costarica-contents .costarica-left {
+    width: 30%;
+    margin-right: 300px;
+    text-align: center;
+    z-index: 10;
+  }
+  .costarica .costarica-contents .costarica-left img {
+    width: 80%;
+  }
+  .costarica .costarica-contents .costarica-left p {
+    padding: 5px 15px 10px 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 38%;
+  }
+  .costarica .costarica-contents .costarica-left p:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #7d5e2d;
+    transition: all 0.5s;
+  }
+  .costarica .costarica-contents .costarica-right {
+    position: absolute;
+    width: 100%;
+    height: 32vh;
+    left: 4%;
+    top: 0;
+  }
+  .costarica .costarica-contents .costarica-right img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  /* end costarica */
+  
+  /*# sourceMappingURL=costarica.css.map */
+  

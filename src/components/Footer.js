@@ -1,8 +1,14 @@
 import React from 'react'
 import "./Footer.css";
 function Footer(props) {
+    const footerStyle = {
+        backgroundColor: '#2C2A29',
+        color: '#fff',
+        padding: '32px 0 35px 0',
+        position: 'relative',
+    }
     return (
-        <footer>
+        <footer style={footerStyle}>
             <div className="w1100">
                 <div className="footer-wrap">
                     <nav className="footer-tap">
