@@ -2,8 +2,8 @@
 /* 헤더 영역 */
 header {
   background-color: #f6f5ef;
-  border-bottom: 1px solid #e5e5e5;
-  border-top: 2px solid #000;
+  border-bottom: 1px solid #e5e5e5 !important;
+  border-top: 2px solid #000 !important;
   position: sticky;
   top: 0;
   width: 100%;
@@ -48,8 +48,8 @@ header .gnb .util-nav .sub-nav li::after {
   opacity: 0.5;
   margin-left: 30px;
 }
-header .gnb .util-nav .sub-nav li:last-child::after {
-  content: "";
+header .gnb .searchBtn:after {
+  content: "" !important; 
 }
 header .gnb .util-nav .sub-nav .searchBtn {
   width: 30px;
@@ -118,7 +118,8 @@ header .gnb .util-nav .menu-tab .inner-tab:hover {
   color: #64a70b;
 }
 header .gnb .util-nav .menu-tab .inner-tab:hover .gnb-var {
-  transition: all 0.5s;
+
+margin-bottom: 10px;
 }
 header .gnb .util-nav .menu-tab .coffe:hover .coffe-gnb,
 header .gnb .util-nav .menu-tab .menu:hover .menu-gnb,
