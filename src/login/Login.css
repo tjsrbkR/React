@@ -1,0 +1,59 @@
+.container {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 70px 0 50px;
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-width: 570px;
+    margin: 0 auto 30px;
+    position: relative;
+    background-color: #fff;
+}
+.info .welcome{
+    border-bottom: 1px solid #ddd;
+    color: #777;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 30px 20px 30px;
+}
+.info .login {
+    padding: 20px;
+}
+.info .login input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 530px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.info .save{
+    position: relative;
+}
+.info .save input{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    width: 26px;
+}
+
+.info .save input[type="checkbox"]:checked+label .save i{
+    color: green;
+}
+.info .save label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
