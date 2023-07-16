@@ -1,24 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Header.css";
 function Header(props) {
     return (
         <header>
             <div className="gnb">
                 <div className="w1100">
-                    <nav className="util-nav cf">
-                        <h1 className="Logo"><img src={props.logo} alt="로고 이미지" /></h1>
+                    <nav className="util-nav ">
+                        <Link to="/"><h1 className="Logo"><img src={props.logo} alt="로고 이미지" /></h1></Link>
                         <ul className="sub-nav cf">
-                            <li>Sign In</li>
-                            <li>My Starbucks</li>
-                            <li>Customer Service & Ideas</li>
-                            <li>Find a Store</li>
+                            <Link to="/SingIn"><li>Sign In</li></Link>
+                            <Link to="/MyStarbucks"><li>My Starbucks</li></Link>
+                            <Link to="/CustomerService"><li>Customer Service & Ideas</li></Link>
+                            <Link to="/FindStore"><li>Find a Store</li></Link>
                             <li className="searchBtn">
                                 <img
                                     src={props.search}
                                     alt="검색 이미지" />
                             </li>
                         </ul>
-                        <div className="logo-var cf">
+                        <div className="logo-var">
                             <ul className="menu-tab">
                                 <li className="coffe inner-tab">COFFE
                                     <div className="gnb-var coffe-gnb">
