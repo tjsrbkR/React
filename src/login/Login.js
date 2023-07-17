@@ -19,16 +19,19 @@ function Login(props) {
                         <fieldset className='info'>
                             <section>
                                 <p className='welcome'>Welcome! 스타벅스 코리아에 오신걸 환영합니다.</p>
-                                <div className='login'>
-                                    <input type="text" name="id" placeholder='아이디를 입력해 주세요' />
-                                    <input type="password" name="pw" placeholder='비밀번호를 입력해 주세요' />
-                                </div>
-                                <div className='save'>
-                                    <input type="checkbox" id='save' />
-                                    <label htmlFor="save">
-                                        <i className="fa fa-check-circle fa-2x" aria-hidden="true"></i>
-                                        아이디 저장
-                                    </label>
+                                <div>
+                                    <div className='login'>
+                                        <input type="text" name="id" placeholder='아이디를 입력해 주세요' />
+                                        <input type="password" name="pw" placeholder='비밀번호를 입력해 주세요' />
+                                    </div>
+                                    <div className='save'>
+                                        <input type="checkbox" id='save' />
+                                        <label htmlFor="save">
+                                            <i className="fa fa-check-circle fa-2x" aria-hidden="true"></i>
+                                            <p>&nbsp;&nbsp;아이디 저장</p>
+                                        </label>
+                                    </div>
+                                    <input type="submit" value="로그인" />
                                 </div>
                             </section>
                         </fieldset>

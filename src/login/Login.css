@@ -18,6 +18,7 @@ h1{
     position: relative;
     background-color: #fff;
 }
+
 .info .welcome{
     border-bottom: 1px solid #ddd;
     color: #777;
@@ -28,6 +29,7 @@ h1{
 }
 .info .login {
     padding: 20px;
+    padding-bottom: 0;
 }
 .info .login input {
     border: 1px solid #ddd;
@@ -41,19 +43,47 @@ h1{
 }
 .info .save{
     position: relative;
+    margin-bottom: 20px;
 }
 .info .save input{
-    cursor: pointer;
     position: absolute;
-    left: 0;
-    width: 26px;
+    width: 63px;
+    height: 26px;
+    padding: 0;
+    border: 0 none;
+    background: #fff;
+    cursor: pointer;
+    opacity: 0;
 }
-
-.info .save input[type="checkbox"]:checked+label .save i{
-    color: green;
+.info .save input[type=checkbox]+ label{
+    color: #ccc;
+}
+.info .save input[type=checkbox]:checked + label{
+    color: #006633;
 }
 .info .save label{
-    cursor: pointer;
     display: flex;
     align-items: center;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 18px;
+    color: #3f4141;
+    cursor: pointer;
+    vertical-align: top;
+    background-size: 26px;
+    cursor: pointer;
+    z-index: 4;
+}
+.info .save label p{
+    color: #3f4141;
+}
+.info input[type=submit]{ 
+    background-color: #006633;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3;
+    width: 97%;
+    margin-left: 20px;
+    border-radius: 3px;
 }
