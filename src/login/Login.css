@@ -83,7 +83,45 @@ h1{
     font-weight: 600;
     font-size: 24px;
     line-height: 3;
-    width: 97%;
+    width: 93%;
     margin-left: 20px;
+    margin-right: 20px;
     border-radius: 3px;
+}
+.waring-txt{
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 15px;
+    color: #006633 !important;
+    margin: 20px;
+}
+.forget ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-left: 70px;
+}
+
+.forget ul li{
+    color: #666;
+    font-size: 16px;
+    height: 100%;
+    line-height: 54px;
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+.forget ul li::after{
+    content: "|";
+    font-weight: 100;
+    opacity: 0.5;
+    margin-left: 30px;
+    height: 30px;
+}
+.forget ul li:last-child{
+
+}
+.forget ul li:last-child::after{
+    content: "";
 }
